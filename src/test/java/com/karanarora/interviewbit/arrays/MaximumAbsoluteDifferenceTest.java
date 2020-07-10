@@ -20,5 +20,10 @@ class MaximumAbsoluteDifferenceTest {
 
   @Test
   void maxArrSolution1() {
+
+    MaximumAbsoluteDifference maximumAbsoluteDifference = new MaximumAbsoluteDifference();
+    List<Integer> integers = Arrays.asList(1, 3, -1);
+    int i = maximumAbsoluteDifference.maxArrSolution1(integers);
+    System.out.println("Answer: " + i);
   }
 }

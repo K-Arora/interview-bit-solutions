@@ -6,6 +6,8 @@ import java.util.List;
 /**
  * Link to the question - https://www.interviewbit.com/problems/maximum-absolute-difference/
  *
+ * https://www.geeksforgeeks.org/maximum-absolute-difference-value-index-sums/
+ * This question can be further enhanced to return the indices
  * @author K-arora on 11/07/20
  */
 public class MaximumAbsoluteDifference {

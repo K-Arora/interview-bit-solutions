@@ -24,12 +24,10 @@ public class TreeNode {
     this.right = right;
   }
 
-
   boolean isValidBST(TreeNode node) {
 
     return helper(node, null, null);
   }
-
 
   public boolean helper(TreeNode node, Integer lower, Integer upper) {
     if (node == null) return true;
@@ -42,6 +40,14 @@ public class TreeNode {
       return false;
 
     return helper(node.left, lower, val);
+  }
+
+  class Solution {
+
+
+
+
+
   }
 
 }
